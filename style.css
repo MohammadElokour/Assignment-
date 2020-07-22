@@ -1,0 +1,366 @@
+@media screen and (max-width: 768px) {
+  #search {
+    display: none;
+  }
+
+  .nav-btn{
+    display: none;
+  }
+
+  #dropdown {
+    visibility: hidden;
+  }
+
+  .menu svg{
+    visibility: visible;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    padding-top: 15px;
+  }
+
+  .grid {
+    display: block;
+  }
+
+  .contact-section {
+    background-color: #f0f0f0;
+    width: 100%;
+    height: auto;
+  }
+
+  #mail-container {
+    position: relative;
+    margin-top: 5%;
+    margin-right: 2%;
+    background-color: white;
+    width: 100%;
+    height: 225px;
+    box-shadow:  5px 5px 10px #808080;
+    overflow: hidden;
+  }
+  
+  #mail-container form {
+    padding-top: 1%;
+    padding-left: 2%;
+  }
+  
+  #mail-container input[type=text] {
+    margin-top: 1.5%;
+    width: 98%;
+    border-bottom: 1px solid #808080;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: medium;
+  }
+  
+  #mail-container input[type=text]:focus {
+    border-bottom: 2px solid #009687;
+  }
+  
+  #mail-container div {
+   padding-top: 1.5%;
+  }
+  
+  #mail-container button {
+    cursor: pointer;
+    right: 15px;
+    bottom: 15px;
+    position: absolute;
+    padding: 1% 2%;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: large;
+  }
+
+  .card {
+    margin-top: 2%;
+    border-right: 20px solid #333333;
+    background-color: white;
+    width: 100%;
+    height: 520px;
+    overflow: hidden;
+  }
+
+  #background-img-container {
+    display: flex;
+    position: relative;
+  }
+
+  #background-img-container img {
+    width: 100%;
+    height: 250px;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 5000px) {
+  .menu svg{
+    visibility: hidden; 
+  }
+  
+  .grid {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact-section {
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 450px;
+  }
+
+  #mail-container {
+    position: relative;
+    margin-top: 5%;
+    margin-right: 2%;
+    background-color: white;
+    width: 1000px;
+    height: 300px;
+    box-shadow:  5px 5px 10px #808080;
+    overflow: hidden;
+  }
+  
+  #mail-container form {
+    padding-top: 1%;
+    padding-left: 2%;
+  }
+  
+  #mail-container input[type=text] {
+    margin-top: 1.5%;
+    width: 98%;
+    border-bottom: 1px solid #808080;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: medium;
+  }
+  
+  #mail-container input[type=text]:focus {
+    border-bottom: 2px solid #009687;
+  }
+  
+  #mail-container div {
+   padding-top: 1.5%;
+  }
+  
+  #mail-container button {
+    cursor: pointer;
+    right: 15px;
+    bottom: 15px;
+    position: absolute;
+    padding: 1% 2%;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: large;
+  }
+
+  .card {
+    margin-top: 2%;
+    border-right: 20px solid #333333;
+    background-color: white;
+    width: 400px;
+    height: 520px;
+    overflow: hidden;
+  }
+  #background-img-container {
+    display: flex;
+    position: relative;
+  }
+
+  #background-img-container img {
+    width: 100%;
+    height: 25%;
+  }
+
+}
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: black;  
+}
+
+.page {
+  margin: auto;
+  max-width: 1600px;
+  overflow: hidden;
+}
+
+
+
+#background-img-container button {
+  position: absolute;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: large;
+  padding: 10px 15px;
+  left: 10px;
+  bottom: 10px;
+}
+
+
+.nav-bar {
+  display: flex;
+  position: sticky;
+  max-width: 1600px;
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+  padding: 15px 25px;
+}
+
+#home {
+  display: flex;
+  justify-content: center;
+  background-color: #009687;
+  padding-left: 20px;
+}
+
+#home svg {  
+  padding-top: 14%;
+}
+
+#dropdown {
+  display: flex;
+  justify-content: center;
+}
+#dropdown svg {
+  padding-top: 14%;
+}
+
+#dropdown a {
+  padding-right: 0;
+}
+
+#search svg{
+  position: absolute;
+  right: 5px;
+  padding-top: 15px;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+.p-t-4 {
+  padding-top: 4%;
+}
+
+.p-b-3 {
+  padding-bottom: 3%;
+}
+
+.p-x-1 {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.p-y-1 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.p-x-2 {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.p-y-2 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+ 
+
+.img-container {
+  text-align: center;
+}
+
+.cards-section {
+  background-color: #333333;
+  width: 100%;
+  height: auto;
+}
+
+.side-content {
+  color: white;
+  width: 350px;
+  height: auto;
+}
+
+
+
+.card img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#contact-info {
+  font-weight: 600;
+  padding-top: 5%;
+  padding-left: 1%;
+}
+
+#contact-info svg {
+  padding-top: 10px;
+}
+
+#contact-info div {
+  display: flex;
+}
+
+#contact-info h2 {
+  font-weight: 600;
+  border-bottom: thick solid #009687;
+  width: 130px;
+}
+
+#contact-info h3 {
+font-weight: 600;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 150px;
+}
+
+.footer-text {
+  color: white;
+  padding-top: 10px;
+}
+
+.footer-logos {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logos img {
+ padding-left: 10px;
+}
+
