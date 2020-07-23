@@ -1,3 +1,7 @@
+*{
+  scroll-behavior: smooth;
+}
+
 @media screen and (max-width: 768px) {
   #search {
     display: none;
@@ -56,6 +60,7 @@
   }
   
   #mail-container input[type=text]:focus {
+    outline: none;
     border-bottom: 2px solid #009687;
   }
   
@@ -65,10 +70,10 @@
   
   #mail-container button {
     cursor: pointer;
-    right: 15px;
+    right: 25px;
     bottom: 15px;
     position: absolute;
-    padding: 1% 2%;
+    padding: 2% 2%;
     background-color: black;
     color: white;
     border: none;
@@ -139,6 +144,7 @@
   }
   
   #mail-container input[type=text]:focus {
+    outline: none;
     border-bottom: 2px solid #009687;
   }
   
@@ -148,7 +154,7 @@
   
   #mail-container button {
     cursor: pointer;
-    right: 15px;
+    right: 25px;
     bottom: 15px;
     position: absolute;
     padding: 1% 2%;
@@ -178,12 +184,22 @@
 
 }
 
-
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
+}
+
+.scroll-btn {
+  opacity: 0;
+  transition: 1s;
+  border: none;
+  position: fixed; 
+  background-color: black;
+  padding: 10px;
+  bottom: 120px;
+  right: 25px;
+  z-index: 10;
 }
 
 header {
@@ -191,6 +207,7 @@ header {
 }
 
 .page {
+  position: relative;
   margin: auto;
   max-width: 1600px;
   overflow: hidden;
